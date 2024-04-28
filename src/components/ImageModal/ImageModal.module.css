@@ -1,0 +1,64 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.Modal {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  transition: all 0.25s ease-in-out;
+}
+.imgModal {
+  max-height: 80vh;
+}
+.imgInfo {
+  color: beige;
+  padding-top: 10px;
+  text-align: center;
+}
+.imgInfoDown {
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageContainer {
+  width: 360px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 250ms linear;
+}
+
+.box {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box p {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.box p:first-child {
+  padding-left: 0;
+}
+.box p:last-child {
+  padding-right: 0;
+}
+
+.descrColor {
+  color: rgb(255, 166, 0);
+}

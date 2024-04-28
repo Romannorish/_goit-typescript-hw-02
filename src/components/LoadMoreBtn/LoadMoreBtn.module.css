@@ -1,0 +1,19 @@
+.loadMoreBtn {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: 1px solid #000;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: inherit;
+  color: #000;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  margin: 0 auto;
+}
+
+.loadMoreBtn:hover {
+  background-color: rgb(56, 63, 148);
+  color: #fff;
+}

@@ -1,0 +1,9 @@
+.galleryBox {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  margin-left: auto;
+}

@@ -1,0 +1,30 @@
+.img {
+  border-radius: 10px;
+  max-width: 100%;
+  width: 350px;
+  height: 270px;
+  cursor: pointer;
+}
+.box {
+  width: 350px;
+  border: 1px solid black;
+}
+
+.box:hover,
+.box:focus {
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
+
+.imageContainer {
+  width: 360px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 250ms linear;
+}
+.imageContainer:hover {
+  transform: scale(1.03);
+}
